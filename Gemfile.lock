@@ -1,3 +1,15 @@
+GIT
+  remote: git://github.com/applandinc/appmap-ruby.git
+  revision: 99da607e05af7b02ca0f454b121449aee8fbab2c
+  branch: master
+  specs:
+    appmap (0.36.0)
+      activesupport
+      faraday
+      gli
+      parser
+      rack
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -40,12 +52,6 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    appmap (0.35.1)
-      activesupport
-      faraday
-      gli
-      parser
-      rack
     arel (7.1.4)
     ast (2.4.1)
     autoprefixer-rails (10.0.1.0)
@@ -132,7 +138,7 @@ GEM
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
     orm_adapter (0.5.0)
-    parser (2.7.1.5)
+    parser (2.7.2.0)
       ast (~> 2.4.1)
     public_suffix (4.0.6)
     puma (3.12.6)
@@ -246,7 +252,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  appmap
+  appmap!
   better_errors
   bootstrap-sass
   byebug

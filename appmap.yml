@@ -6,4 +6,5 @@ packages:
 - path: app/mailers
 - path: app/models
 - path: app/services
-- path: /Users/kgilpin/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/devise-4.7.3/lib
+- gem: devise
+
